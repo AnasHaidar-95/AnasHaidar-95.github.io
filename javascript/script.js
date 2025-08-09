@@ -52,11 +52,11 @@
           const subject = document.getElementById("subject").value;
           const message = document.getElementById("message").value;
 
-          // Here you would normally send the data to a server
-          console.log("Form submitted:", { name, email, subject, message });
+          // Construct mailto link
+          const mailtoLink = `mailto:anas.haidar1995@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
 
-          // Show success message
-          alert("Thank you for your message! I will get back to you soon.");
+          // Open mailto link
+          window.location.href = mailtoLink;
 
           // Reset form
           this.reset();
