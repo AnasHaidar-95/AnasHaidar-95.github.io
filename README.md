@@ -27,7 +27,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AnasHaidar-95/Portfolio.git
+   git clone https://github.com/AnasHaidar-95/AnasHaidar-95.github.io.git
    ```
 2. Open the `index.html` file in your browser.
 
