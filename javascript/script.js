@@ -40,28 +40,6 @@
         });
       });
 
-      // Form submission
-      document
-        .getElementById("contactForm")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-
-          // Get form values
-          const name = document.getElementById("name").value;
-          const email = document.getElementById("email").value;
-          const subject = document.getElementById("subject").value;
-          const message = document.getElementById("message").value;
-
-          // Construct mailto link
-          const mailtoLink = `mailto:anas.haidar1995@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-
-          // Open mailto link
-          window.location.href = mailtoLink;
-
-          // Reset form
-          this.reset();
-        });
-
       // Create floating particles
       function createParticles() {
         const particlesContainer = document.getElementById("particles");

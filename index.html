@@ -90,9 +90,6 @@
       <div class="container">
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
-          <!-- <div class="about-image">
-            <img src="./assets/images/me2.png" alt="About Anas Haidar" />
-          </div> -->
           <div class="about-text">
             <h3>Creative Full Stack Developer</h3>
             <p>
@@ -147,7 +144,10 @@
           <!-- Project 1 -->
           <div class="project-card">
             <div class="project-image">
-              <img src="./assets/projects images/Kids Scholar.jpg" alt="Kids-Scholar" />
+              <img
+                src="./assets/projects images/Kids Scholar.jpg"
+                alt="Kids-Scholar"
+              />
               <div class="project-overlay">
                 <a
                   href="https://github.com/AnasHaidar-95/Kids-Scholar"
@@ -261,7 +261,7 @@
             </div>
           </div>
 
-                   <!-- Project 4 -->
+          <!-- Project 4 -->
           <div class="project-card">
             <div class="project-image">
               <img
@@ -279,7 +279,8 @@
             <div class="project-details">
               <h3 class="project-title">Todo-List</h3>
               <p class="project-description">
-              A full-stack to-do list application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+                A full-stack to-do list application built with the MERN stack
+                (MongoDB, Express.js, React.js, Node.js).
               </p>
               <div class="project-tech">
                 <span class="tech-tag">React.js</span>
@@ -299,8 +300,7 @@
             </div>
           </div>
 
-
-                   <!-- Project 5 -->
+          <!-- Project 5 -->
           <div class="project-card">
             <div class="project-image">
               <img
@@ -318,7 +318,10 @@
             <div class="project-details">
               <h3 class="project-title">MysteryBoxes</h3>
               <p class="project-description">
-              MysteryBoxes is a full-stack e-commerce application with a React frontend and a Node.js backend. The application allows users to register, login, browse products, and view their orders. Administrators can add new products to the store.
+                MysteryBoxes is a full-stack e-commerce application with a React
+                frontend and a Node.js backend. The application allows users to
+                register, login, browse products, and view their orders.
+                Administrators can add new products to the store.
               </p>
               <div class="project-tech">
                 <span class="tech-tag">React.js</span>
@@ -338,7 +341,7 @@
             </div>
           </div>
 
-                    <!-- Project 6 -->
+          <!-- Project 6 -->
           <div class="project-card">
             <div class="project-image">
               <img
@@ -369,7 +372,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -402,7 +404,10 @@
             </div>
           </div>
           <div class="contact-form">
-            <form id="contactForm">
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+              <div class="form-group">
+              <input type="hidden" name="access_key" value="3fbfceb6-06d5-4085-b04c-702b9fa895df">
+              </div>
               <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required />
@@ -418,6 +423,9 @@
               <div class="form-group">
                 <label for="message">Message</label>
                 <textarea id="message" name="message" required></textarea>
+              </div>
+               <div class="form-group">
+              <input type="hidden" name="redirect" value="https://web3forms.com/success">
               </div>
               <button type="submit" class="submit-btn">Send Message</button>
             </form>
