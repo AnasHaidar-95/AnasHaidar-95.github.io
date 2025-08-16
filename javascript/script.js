@@ -43,7 +43,7 @@
       // Create floating particles
       function createParticles() {
         const particlesContainer = document.getElementById("particles");
-        const particleCount = 50;
+        const particleCount = 100;
 
         for (let i = 0; i < particleCount; i++) {
           const particle = document.createElement("div");
