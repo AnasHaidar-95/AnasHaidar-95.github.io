@@ -21,16 +21,6 @@ You can view the live demo of the portfolio [here](https://anashaidar-95.github.
 - **JavaScript:** For the interactive features of the website, such as the typing effect, smooth scrolling, and form validation.
 - **Font Awesome:** For the icons used in the website.
 
-## Setup
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AnasHaidar-95/AnasHaidar-95.github.io.git
-   ```
-2. Open the `index.html` file in your browser.
-
 ## Contact
 
 - **Email:** anas.haidar1995@gmail.com
